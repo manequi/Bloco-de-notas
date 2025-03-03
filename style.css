@@ -28,3 +28,22 @@ button {
     display:flex;
     position: center;
 }
+@media (max-width: 768px) { 
+    h1 {
+        font-size: 20px;
+    }
+
+    textarea {
+        width: 90vw;
+        height: 40vh; /* Ajusta a altura para caber na tela */
+        font-size: 16px; /* Aumenta o tamanho do texto */
+    }
+
+    button {
+        width: 80%; /* Faz os botões ocuparem quase toda a largura */
+        font-size: 18px; 
+        padding: 12px;
+        margin: 5px auto; /* Centraliza */
+        display: block; /* Coloca os botões um abaixo do outro */
+    }
+}
